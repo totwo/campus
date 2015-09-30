@@ -15,6 +15,7 @@ public class Tiao7 {
 		int a = sc.nextInt();
 		int b = 0;
 		int count = 0;
+		//TODO: 未完成
 		for (int i = 0; i < a; i++) {
 			if(  (7 << b) <= a){
 				System.out.println( (7 << b));

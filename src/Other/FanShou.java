@@ -17,9 +17,9 @@ public class FanShou {
 	}
 	public String process(String str, int m){
 		char[] cs = str.toCharArray();
-		turnHand(cs,0,m-1);
-		turnHand(cs,m,cs.length-1);
-		turnHand(cs,0,cs.length-1);
+		turnHand(cs,0,m-1);//前半部分转置
+		turnHand(cs,m,cs.length-1);//后半部分转置
+		turnHand(cs,0,cs.length-1);//所有字符串转置
 		return new String(cs);
 	}
 	public void turnHand(char[] cs,int i,int j){
