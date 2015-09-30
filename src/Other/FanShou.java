@@ -7,6 +7,7 @@ package Other;
  * @author Dahai
  * @Date 2015年9月29日
  * 翻手算法
+ * 如现在有一串字符：ABCDEFG，让前两个字符循环左移到整个个字符串的右边，结果即:CDEFGAB
  */
 public class FanShou {
 	public static void main(String[] args) {
