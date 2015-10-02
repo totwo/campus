@@ -8,11 +8,11 @@ package fenghuo;
  * @Date 2015年9月25日
  * 代码执行顺序
  */
-public class ZhiXing {
+public class ZhiXingShunXu {
 	public static String staticField = "静态变量";
 	public String field = "变量";
 	public static void main(String[] args) {
-		new ZhiXing();
+		new ZhiXingShunXu();
 	}
 	{
 		System.out.println(field);
@@ -26,7 +26,7 @@ public class ZhiXing {
 		System.out.println(field);
 		System.out.println("初始化块");
 	}
-	public ZhiXing(){
+	public ZhiXingShunXu(){
 		System.out.println("构造器");
 	}
 
