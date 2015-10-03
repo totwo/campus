@@ -1,7 +1,7 @@
 /**
  * 
  */
-package WeiYunSuan;
+package Other;
 
 /**
  * @author Dahai
