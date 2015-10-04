@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 /**
  * @author Dahai
- * @Date 2015Äê9ÔÂ23ÈÕ
- * ×Ö·û´®×îºóÒ»¸öµ¥´ÊµÄ³¤¶È
+ * @Date 2015å¹´9æœˆ23æ—¥
+ * å­—ç¬¦ä¸²æœ€åä¸€ä¸ªå•è¯çš„é•¿åº¦
  */
 public class ZiFuChuan {
 	public static void main(String[] args) {
