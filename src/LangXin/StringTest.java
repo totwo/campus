@@ -6,6 +6,7 @@ package LangXin;
 /**
  * @author Dahai
  * @Date 2015年10月3日
+ * String对象判断
  */
 public class StringTest {
 	public static void main(String[] args) {
