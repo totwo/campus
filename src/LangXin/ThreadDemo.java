@@ -10,9 +10,9 @@ package LangXin;
  */
 public class ThreadDemo {
 	public static void main(String[] args) throws InterruptedException {
-		MyThread myThread = new MyThread();
+//		MyThread myThread = new MyThread();
 		for (int i = 0; i < 20; i++) {
-			new Thread(myThread,"thread"+i).start();
+			new Thread(new MyThread()).start();
 			Thread.sleep(300);
 		}
 	}
